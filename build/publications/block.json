@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "moare/publications",
+  "version": "1.0.0",
+  "title": "Moare Publications",
+  "category": "theme",
+  "icon": "book",
+  "description": "Custom Fields Archive CPT Publications",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "moare-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
